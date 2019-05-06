@@ -30,6 +30,8 @@ for i in file__:
 				v += 1
 '''
 
+counting_list = []
+
 
 for i in range(len(content)):
 	content[i] = content[i].split()		    	#making a nested list in which we split each word as element
@@ -37,9 +39,16 @@ for i in range(len(content)):
 for x in range(len(content)):			   	 #looping through content list
 	for y in content[x]:			   	 #looping through nested list(words) in content list
 		for z in y:			   	 #loopint through each letter in the nested list(words)
-			for k,v in letter_dict.items():		# k is for keys and v for value in 'letter_dict' dictionary
-				if k == z:			# if key is equal to z(letter)
-					v +=1			# add one to value of that key
+			counting_list.append(z)
+
+
+for var111 in counting_list:
+	for k,v in letter_dict.items() :
+		if var111 == k:
+			v+=1
+
+
+
 
 
 print(letter_dict)
