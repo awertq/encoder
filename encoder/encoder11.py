@@ -41,11 +41,17 @@ for x in range(len(content)):			   	 #looping through content list
 		for z in y:			   	 #loopint through each letter in the nested list(words)
 			counting_list.append(z)
 
+#content list                   counting_list
+
 
 for var111 in counting_list:
 	for k,v in letter_dict.items() :
 		if var111 == k:
 			v+=1
+
+
+
+
 
 
 
