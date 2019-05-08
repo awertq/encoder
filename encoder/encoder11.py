@@ -50,8 +50,11 @@ for var111 in counting_list:
 			letter_dict[k] +=1
 
 
-
+#converting letter_dict to array and then using boolean array print thoes
 
 
 
 print(letter_dict)
+print("m")
+m.letter_dict_printer(letter_dict)
+print(arr_k)
