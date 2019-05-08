@@ -47,10 +47,7 @@ for x in range(len(content)):			   	 #looping through content list
 for var111 in counting_list:
 	for k,v in letter_dict.items() :
 		if var111 == k:
-			v+=1
-
-
-
+			letter_dict[k] +=1
 
 
 

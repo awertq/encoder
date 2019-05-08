@@ -15,6 +15,11 @@ def letter_dict_maker():
 	for letter in list_of_alpha:
 		letter_dict[letter] = 0
 
+	letter_dict[":"] = 0
+	letter_dict[";"] = 0
+	letter_dict[","] = 0
+	letter_dict["?"] = 0
+
 	return letter_dict
 
 # function that examine file and count the number of letter and store it in a dict.
@@ -29,18 +34,6 @@ def letter_index(file):
 
 		temp0011 = list(str(var001[temp]))
 		
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 def letter_index(file):
